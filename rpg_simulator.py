@@ -112,7 +112,6 @@ class Game:
 class Simulator:
 
     def __init__(self, rules: RuleSet, times: int = 10):
-        self.rules = RuleSet
         self.game = Game(rules)
         self.no_games = 0
         self.no_wins = 0
