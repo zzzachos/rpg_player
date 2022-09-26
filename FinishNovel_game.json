@@ -1,0 +1,80 @@
+{
+    "short_tag": "book",
+    "full_title": "Will You Finish Your Novel Today?",
+    "author": "coder",
+    "possible_improvements": "Add an energy score?",
+    "full_description": "It's the weekend and you have a novel you've been meaning to finish. Will today be the day?",
+    "no_scores" : 2,
+    "scores": [
+            {
+            "name": "Time",
+            "start": 0,
+            "end" : 10,
+            "win_at_end": false,
+            "ending_message": "LOSE: You ran out of time for your novel. Hopefully you at least had a nice day otherwise."
+        },
+        {
+            "name": "Pages",
+            "start": 100,
+            "end" : 0,
+            "win_at_end": true,
+            "ending_message": "WIN: Congratulations! You finished your novel today!"
+        }
+        ],
+    "no_categories" : 3,
+    "no_outcomes_per_category" : 3,
+    "die_size" : 6, 
+    "categories": [
+        {
+            "name": "Book-Related Event",
+            "outcomes": [
+                {
+                    "score_changes" : [0,-20],
+                    "message" : "You hit a tropey bit you really enjoyed and felt the pages fly by!"
+                },
+                {
+                    "score_changes" : [1,0],
+                    "message" : "You became really bored with this section and couldn't muster up the energy to continue."
+                },
+                {
+                    "score_changes" : [1,-10],
+                    "message" : "You sat down and were disciplined and got through a decent number of pages, even if you had to force yourself the whole time."
+                }
+            ]
+        },
+        {
+            "name": "Cat-Related Events",
+            "outcomes": [
+                {
+                    "score_changes" : [0, -10],
+                    "message" : "The cat hid herself somewhere and you were able to focus solely on your book and got some serious reading done."
+                },
+                {
+                    "score_changes" : [2,0],
+                    "message" : "The cat was being adorable and so you were distracted petting and cuddling with her."
+                },
+                {
+                    "score_changes" : [1, -10],
+                    "message" : "The cat wanted to go out onto the balcony so you went out there and read in the hammock."
+                }
+            ]  
+        },
+        {
+            "name": "Outside Interactions",
+            "outcomes": [
+                {
+                    "score_changes" : [0, -10],
+                    "message" : "You remembered your book club and redoubled your efforts to read more."
+                },
+                {
+                    "score_changes" : [1,0],
+                    "message" : "You suddenly got hungry and went to make yourself a snack."
+                },
+                {
+                    "score_changes" : [2, -20],
+                    "message" : "You read some online comments about the book and then started storming through the pages."
+                }
+            ]
+        }
+        ]
+}

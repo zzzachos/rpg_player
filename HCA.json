@@ -1,0 +1,122 @@
+{
+    "short_tag": "Hans Christen Andersen",
+    "full_title": "Trapped in Your House With Hans Christen Andersen",
+    "full_description": "Hans Christian Andersen is on your lawn ... he won’t leave, and you refuse to let him in. Surely he has to go home eventually? Surely? Why does he have camping supplies with him...",
+    "author": "Oliver Darkshire",
+    "no_scores" : 3,
+    "scores": [
+        {
+            "name": "Scandal",
+            "start": 0,
+            "end" : 10,
+            "win_at_end": false,
+            "ending_message": "LOSE: the pressure and mockery from society reaches such heights that you decide to sell the house. Hans moves in after you leave and squats there."
+        },
+        {
+            "name": "Obsession",
+            "start": 10,
+            "end" : 0,
+            "win_at_end": true,
+            "ending_message": "WIN: Hans finally loses interest in you and finds another unattainable person to chase. Victory. He does, however, write a thinly veiled short story about you. It’s not flattering."
+        },
+        {
+            "name": "Food",
+            "start": 10,
+            "end" : 0,
+            "win_at_end": false,
+            "ending_message": "LOSE: you run out of food and starve before Hans relents. The funeral is tasteful. He does not attend."
+        }
+        ],
+    "no_categories" : 3,
+    "no_outcomes_per_category" : 6,
+    "categories": [
+        {
+            "name": "Desperation Mounts...",
+            "outcomes": [
+                {
+                    "score_changes" : [0,0,-1],
+                    "message" : "Rats. Rats in your basement."
+                },
+                {
+                    "score_changes" : [0,0,-2],
+                    "message" : "Your dogs have eyes as big as saucers. Or dinnerplates."
+                },
+                {
+                    "score_changes" : [0,0,-1],
+                    "message" : "You find an ugly duckling. It’s sad. Do you eat it? No, of course not."
+                },
+                {
+                    "score_changes" : [1,0,0],
+                    "message" : "You write letters to your friends. No help comes."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "You play solitaire."
+                },
+                {
+                    "score_changes" : [0,0,-1],
+                    "message" : "More of your food spoils. How long can this go on?"
+                }
+            ]
+        },
+        {
+            "name": "Peeking Through The Curtains...",
+            "outcomes": [
+                {
+                    "score_changes" : [1,-1,0],
+                    "message" : "A little matchstick girl dies on your lawn. In front of him."
+                },
+                {
+                    "score_changes" : [1,0,0],
+                    "message" : "He’s having a portrait done of him. On your LAWN."
+                },
+                {
+                    "score_changes" : [2,0,0],
+                    "message" : "He’s hired a small orchestra to blast music at your house."
+                },
+                {
+                    "score_changes" : [0,-1,0],
+                    "message" : "A new face wanders past."
+                },
+                {
+                    "score_changes" : [0,1,0],
+                    "message" : "He’s talking to your neighbours about you."
+                },
+                {
+                    "score_changes" : [0,1,0],
+                    "message" : "He catches a glimpse of you."
+                }
+            ]
+            
+        },
+        {
+            "name": "Han's Antics",
+            "outcomes": [
+                {
+                    "score_changes" : [2,0,0],
+                    "message" : "He’s naked. He claims the clothes are visible."
+                },
+                {
+                    "score_changes" : [0,-1,0],
+                    "message" : "He’s shoving letters through your door. Stacks of them."
+                },
+                {
+                    "score_changes" : [1,-1,0],
+                    "message" : "He’s weeping and howling, rolling about on the grass."
+                },
+                {
+                    "score_changes" : [0,0,-1],
+                    "message" : "He stamps on a parcel intended for you."
+                },
+                {
+                    "score_changes" : [0,-1,0],
+                    "message" : "He’s punching the house and crying about it."
+                },
+                {
+                    "score_changes" : [1,0,0],
+                    "message" : "He puts his mouth to the letterbox and screams."
+                }
+            ]
+        }
+        ]
+}

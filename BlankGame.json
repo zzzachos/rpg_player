@@ -1,0 +1,121 @@
+{
+    "short_tag": "blank",
+    "full_title": "Blank Game",
+    "full_description": "This is a template for you to create your own RPG game! Do not forget to change the scores, or else your game will never end!",
+    "no_scores" : 3,
+    "scores": [
+        {
+            "name": "Score 1",
+            "start": 0,
+            "end" : 10,
+            "win_at_end": false,
+            "ending_message": "LOSE: score one."
+        },
+        {
+            "name": "Score 2",
+            "start": 10,
+            "end" : 0,
+            "win_at_end": true,
+            "ending_message": "WIN: score two."
+        },
+        {
+            "name": "Score 3",
+            "start": 10,
+            "end" : 0,
+            "win_at_end": false,
+            "ending_message": "LOSE: score 3."
+        }
+        ],
+    "no_categories" : 3,
+    "no_outcomes_per_category" : 6,
+    "die_size" : 6, 
+    "categories": [
+        {
+            "name": "Category 1",
+            "outcomes": [
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 1."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 2."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 3."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 4."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 5."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 6."
+                }
+            ]
+        },
+        {
+            "name": "Category 2",
+            "outcomes": [
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 1."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 2."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 3."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 4."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 5."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 6."
+                }
+            ]  
+        },
+        {
+            "name": "Category 3",
+            "outcomes": [
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 1."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 2."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 3."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 4."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 5."
+                },
+                {
+                    "score_changes" : [0,0,0],
+                    "message" : "Outcome 6."
+                }
+            ]
+        }
+        ]
+}
